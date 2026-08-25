@@ -1,2 +1,13 @@
 ---
- - name: 
+ - name: variables from another file
+   hosts: local
+   connection: local
+   vars_file: 
+    - inventory.ini 
+
+   tasks:
+    - name: print the course information 
+      ansible.builtin.debug:
+        msg: "Hello {{ course }} {{ duration }} {{ trainer }}"
+
+        
