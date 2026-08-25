@@ -8,10 +8,12 @@
       trainer: satyam
 
    tasks: 
-  - name: print course information
-     vars:
-      course: Ansible 
-      ansible.builtin.debug:
+ - name: print course information
+   vars:
+        course: Ansible 
+
+
+        ansible.builtin.debug:
          msg: "Hello {{ course }}  {{ duration }} {{ trainer }}"
 
 
