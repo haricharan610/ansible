@@ -8,13 +8,13 @@
       trainer: satyam
 
    tasks: 
-   - name: print course information
+  - name: print course information
      vars:
       course: Ansible 
       ansible.builtin.debug:
          msg: "Hello {{ course }}  {{ duration }} {{ trainer }}"
 
-         
+
 
  
     
