@@ -1,7 +1,7 @@
 ---
  - name: variables
-   hosts: local
-   connection: local
+   hosts: 98.83.157.28
+   connection: 98.83.157.28
    vars:
       course: Devops with AWS
       duration: 11HR
