@@ -13,5 +13,5 @@
      vars: 
      course: ansible
      ansible.builtin.debug:
-       msg: "HELLO {{ course }} duration {{ duration }} trainer name {{ trianer }}"
-       
+        msg: "HELLO {{ course }} duration {{ duration }} trainer name {{ trianer }}"
+
