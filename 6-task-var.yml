@@ -10,10 +10,10 @@
    tasks: 
  - name: print course information
    vars:
-        course: Ansible 
+      course: Ansible 
 
 
-        ansible.builtin.debug:
+      ansible.builtin.debug:
          msg: "Hello {{ course }}  {{ duration }} {{ trainer }}"
 
 
