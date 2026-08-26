@@ -13,7 +13,7 @@
      private: true
 
 
-     tasks:
+   tasks:
    - name: print user information 
      ansible.builtin.debug:
        msg: "Hello Username is: {{ USERNAME }}, password is {{ PASSWORD }}" 
